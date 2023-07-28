@@ -5,7 +5,7 @@ import type { NextRequest } from 'next/server';
 export function GET(request: NextRequest) {
 
     //lo
-
+    console.log("Serverless running")
 
 
   return NextResponse.json(
